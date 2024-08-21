@@ -1,5 +1,17 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "assets/*": ["src/assets/*"],
+      "ui/*": ["src/ui/*"],
+      "models/*": ["src/models/*"],
+      "components/*": ["src/ui/components/*"],
+      "containers/*": ["src/ui/containers/*"],
+      "services/*": ["src/services/*"],
+      "utils/*": ["src/utils/*"],
+      "style/*": ["src/ui/style/*"]
+    },
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
