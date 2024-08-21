@@ -27,9 +27,6 @@ export interface TableStyle {
   enableColumnActions: boolean;
   createDisplayMode: 'row' | 'custom' | 'modal' | undefined; // Adjusted type
   editDisplayMode: 'row' | 'custom' | 'modal' | 'table' | 'cell' | undefined; // Adjusted type
-  // memoMode: string;
-  // rowNumberDisplayMode: string;
-  // getRowId: (row: { id: string; }) => string;
   mrtTheme: () => {
     baseBackgroundColor: string;
   };
